@@ -6,4 +6,5 @@ def home(request):
 
 
 def hello(request):
+    ok = 'ok'
     return render(request, 'hello.html', {'title': 'Hello, world', 'name': 'John'})
